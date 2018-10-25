@@ -5,84 +5,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>xTU</title>
-  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" /> -->
-  <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css" /> -->
-  <link rel="stylesheet" href="https://dl.dropbox.com/s/v0lf8m37eqhr1pd/bulma.css">
-  <link rel="stylesheet" href="https://dl.dropbox.com/s/8ywoxsa12fk3q52/custom.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script>
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 480 || document.documentElement.scrollTop > 480) {
-    document.getElementById("navbarchange").style.boxShadow = "0 2px 3px rgba(10, 10, 10, 0.1), 0 0 10px 1px rgba(10, 10, 10, 0.3)";
-  } else {
-    document.getElementById("navbarchange").style.boxShadow = "";
-  }
-}
-</script>
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/custom.css" />
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 </head>
 <body>
-
-<div id="container">
-  
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation" id="navbarchange">
-  <div class="container">
-    <!-- LOGO -->
-      <div class="navbar-brand">
-        <a class="navbar-item" href="<?php echo base_url(); ?>">
-          <img src="https://i.imgur.com/SAk6kQy.png" >
-        </a>
+    <!-- Navbar -->
+    <div id="header">
+        <div class="container">
+            <a href="#home"><div id="logo"><?= "<img src='https://dl.dropbox.com/s/tupetot53ck72aw/logo_xTU.png' alt='xTU' width='60px'>" ?></div></a>
+            <ul>
+                <li><a style="opacity: 0; background-color: white;" href="#">.........</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Categories v</a>
+                        <div class="dropdown-content">
+                        <a href="#">Food</a>
+                        <a href="#">Café</a>
+                        <a href="#">Store</a>
+                        <a href="#">Pharmacy</a>
+                        <a href="#">Others</a>
+                        </div>
+                </li>
+                <li style="float: right;"><a href="#search">Search</a></li>
+                <li style="float: right;"><a href="#login">Login</a></li>
+            </ul>
         </div>
-    <!-- Dropdown -->
-        <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link" href="#">
-          Categories
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="#">
-            Food
-          </a>
-          <a class="navbar-item" href="#">
-            Café
-          </a>
-          <!-- <hr class="navbar-divider"> -->
-          <a class="navbar-item" href="#">
-            Store
-          </a>
-          <a class="navbar-item" href="#">
-            Pharmacy
-          </a>
-          <!-- <hr class="navbar-divider"> -->
-          <a class="navbar-item" href="#">
-            Others
-          </a>
-        </div>
-      
-      </div>
-
-    
-      <!-- Login -->
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-white" href="<?php echo base_url(); ?>login">
-                Login
-              </a>
-              
-              <div class="navbar-divider"></div>
-
-              <a class="button is-info is-rounded" style="height: 50px; width: 50px; border-radius: 50px;" href="<?php echo base_url(); ?>search"> 
-                <i class="fa fa-search fa-lg"></i>
-
-                </a>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </nav>
-  
-</div>
+    </div>
+    <!-- Navbar End -->
