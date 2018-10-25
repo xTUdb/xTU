@@ -37,6 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                 <li style="float: right;"><a href="#search"><i class="fas fa-search"></i></a></li>
                 <li style="float: right;"><a href="#login">Login</a></li>
+                <li style="float: right;"><a href="#login">ThammaTrans</a></li>
             </ul>
         </div>
     </div>
