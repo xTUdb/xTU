@@ -1,10 +1,18 @@
     <!-- Carousel -->
-    <div class="carouselbox">
+    <!-- <div class="carouselbox">
         <img src='https://f.ptcdn.info/645/047/000/ohl4zjyn4DbiuAARqzW-o.jpg' alt='somtum' class='centerphoto'>
         <div class="photodescription">
             <h4>ส้มตำร้านลุงป้า</h4>
             ที่อยู่: หน้าหอ VKP แมนชั่น<br>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus beatae nam eius molestias nesciunt.
+        </div>
+    </div> -->
+    <div class="carousel">
+        <div class="carousel-box">
+            <img class="carousel-image" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" />
+        </div>
+        <div class="carousel-box">
+            <img class="carousel-image" src="https://wikiki.github.io/images/singer.jpg" alt="" />
         </div>
     </div>
     <!-- Carousel End -->
@@ -91,4 +99,15 @@
             </div> <!-- place-card-align end -->
         </div> <!-- long-box end -->
 
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true
+            });
+        });
+    </script>
     </div> <!-- container end -->
