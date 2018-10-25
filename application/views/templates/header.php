@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <ul>
                 <li><a style="opacity: 0; background-color: white;" href="#">.........</a></li>
                 <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Categories v</a>
+                    <a href="javascript:void(0)" class="dropbtn">Categories <i class="fas fa-angle-down"></i></a>
                         <div class="dropdown-content">
                         <a href="#">Food</a>
                         <a href="#">Café</a>
