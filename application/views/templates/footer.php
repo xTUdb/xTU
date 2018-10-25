@@ -1,8 +1,9 @@
     <!-- Footer -->
-    <footer class="container">
+    <footer style="backgroud-color: #f0f0f0">
+    <div class="container">
         <div class="column1">
-            <p>xTU LOGO </p>
-            <p> <a href="#">About Us</a></p>
+            <p><img src="https://dl.dropbox.com/s/tupetot53ck72aw/logo_xTU.png" alt="xTU" width="60px"> </p>
+            <p><a href="#">About Us</a></p>
             <p><a href="#">Contact Us</a></p>
             </div>
         <div class="column2">
@@ -19,6 +20,7 @@
         <!-- TWITTER -->
         <a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"> </i></a>
         </div>
+    </div>
     </footer>
     <!-- Footer End -->
 

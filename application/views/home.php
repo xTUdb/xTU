@@ -56,37 +56,37 @@
 
             <div class="place-card-align">
             
-            <div class="place-card">
+            <div class="place-card"><a href="#">
                 <div class="place-card-pic"><img src="https://bluewater.co.uk/sites/bluewater/files/styles/image_spotlight_large/public/images/spotlights/burger-cropped.jpg?itok=SeFYMFP6" alt="frenchfries" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Burger Shop</div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
+                </div></a>
             </div>
-            <div class="place-card">
+            <div class="place-card"><a href="#">
                 <div class="place-card-pic"><img src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Fresh French Fries</div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
+                </div></a>
             </div>
-            <div class="place-card">
+            <div class="place-card"><a href="#">
                 <div class="place-card-pic"><img src="https://www.bbcgoodfood.com/sites/default/files/guide/guide-image/2018/06/chicken-wings-main.jpg" alt="friedchick" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Fried Chicken</div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
+                </div></a>
             </div>
-            <div class="place-card">
+            <div class="place-card"><a href="#">
                 <div class="place-card-pic"><img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_602,c_fill,g_auto,h_339,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170302153529-garlic-crab.jpg" alt="crab" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Oh! Crab</div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
+                </div></a>
             </div>
             </div> <!-- place-card-align end -->
         </div> <!-- long-box end -->
