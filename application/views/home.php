@@ -64,7 +64,7 @@
                 </div>
             </div>
             <div class="place-card">
-                <img src="https://bluewater.co.uk/sites/bluewater/files/styles/image_spotlight_large/public/images/spotlights/burger-cropped.jpg?itok=SeFYMFP6" alt="burger" style="width:100%">
+                <img src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="width:100%">
                 <div class="card-place-description">
                     <div class="head-sub">Burger Shop</div>
                     This isn't just a normal burger shop
