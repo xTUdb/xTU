@@ -66,7 +66,7 @@
             <div class="place-card">
                 <img src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="width:100%">
                 <div class="card-place-description">
-                    <div class="head-sub">Burger Shop</div>
+                    <div class="head-sub">Fresh French Fries</div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div>
