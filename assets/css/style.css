@@ -34,7 +34,7 @@ a:hover, a:active {
 .container {
     margin: 0 auto;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 
@@ -125,11 +125,11 @@ li.dropdown {
 .carousel {
     width: 100%;
     background-color: white;
-    margin-top: 64px;
+    margin-top: 50px;
     z-index: -10;
 }
 .carousel-box {
-    height: 300px;
+    height: 400px;
     display: flex !important;
     justify-content: center;
     align-items: center;
@@ -251,7 +251,7 @@ footer{
     width:100%;
     background-color: #f0f0f0;
     padding:20px;
-    margin: 0;
+    margin-top: 40px;
     display: flex;
 }
 
@@ -260,10 +260,11 @@ footer{
     width: 33.33%;
 }
 .column2{
-    float: center;   
+    float: center;
     width: 33.33%;
 }
 .column3{
-    float: right;    
+    float: right;
+    text-align: right;
     width: 33.33%;
 }

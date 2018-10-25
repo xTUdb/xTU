@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <a href="#">Others</a>
                         </div>
                 </li>
-                <li style="float: right;"><a href="#search">Search</a></li>
+                <li style="float: right;"><a href="#search"><i class="fas fa-search"></i></a></li>
                 <li style="float: right;"><a href="#login">Login</a></li>
             </ul>
         </div>

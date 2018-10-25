@@ -11,7 +11,6 @@
         </div>
         <div class="column3">
             <p>Design by ProjectX Group</p>
-        <br>
         Contact us
         <!-- FACEBOOK -->
         <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"> </i></a>
