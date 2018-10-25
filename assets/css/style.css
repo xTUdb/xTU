@@ -25,6 +25,7 @@ h4 {
 .container {
     margin: 0 auto;
     position: relative;
+    z-index: -1;
 }
 
 
@@ -52,6 +53,7 @@ h4 {
     top: 0;
     left: 0;
     background-color: white;
+    z-index: 10;
 }
 
 ul {
@@ -85,8 +87,8 @@ li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
-    display: none;
+.dropdown-content{
+    display: none; 
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -115,6 +117,7 @@ li.dropdown {
     width: 100%;
     background-color: white;
     margin-top: 64px;
+    z-index: -10;
 }
 .carousel-box {
     height: 300px;
