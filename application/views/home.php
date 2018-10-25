@@ -8,7 +8,6 @@
         </div>
     </div>
     <!-- Carousel End -->
-siedjcipsdjcoiwkokwpeidjfoiwejfouerh
     <!-- Shortcuts -->
     <div class="container card-align">
     <div class="card">
