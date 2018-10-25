@@ -172,9 +172,9 @@ li.dropdown {
 .long-box {
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
     border: 0.75px solid rgb(211, 211, 211);
-    width: 100%;
+    max-width: 100%;
     overflow: hidden;
-    margin: 16px;
+    margin-top: 16px;
     padding-bottom: 10px;
     background-color: white;
     padding: 20px;
@@ -183,6 +183,13 @@ li.dropdown {
 .place-card {
     margin-top: 10px;
     width: 24%;
+    height: 150;
+}
+
+.place-card-pic {
+    position: relative;
+    height: 145px;
+    overflow: hidden;
 }
 
 .place-card-align {
@@ -190,6 +197,44 @@ li.dropdown {
     justify-content: space-between;
 }
 
-.card-place-description {
+.place-card-description {
     padding: 0;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------- FOOTER ---------------- */
+
+footer{
+    font-family: Arial;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: rgb(240, 240, 240);
+    padding:20px;
+    margin: 0;
+    display: flex;
+}
+
+.column1{
+    float: left;
+    width: 33.33%;
+}
+.column2{
+    float: center;   
+    width: 33.33%;
+}
+.column3{
+    float: right;    
+    width: 33.33%;
 }
