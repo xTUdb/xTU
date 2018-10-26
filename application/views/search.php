@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" />
 <div class="container" style="margin-top:100px; display: flex; justify-content: center">
 <div class="field" style="">
     <div class="control">

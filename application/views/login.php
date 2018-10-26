@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" />
 <section class="hero is-fullheight" style="background-color: #475d82">
         <div class="hero-body">
             <div class="container has-text-centered">

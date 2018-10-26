@@ -22,7 +22,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Navbar -->
     <div id="header">
         <div class="container">
-            <a href="#home"><div id="logo"><?= "<img src='https://dl.dropbox.com/s/tupetot53ck72aw/logo_xTU.png' alt='xTU' width='60px'>" ?></div></a>
+            <a href="<?php echo base_url(); ?>"><div id="logo"><?= "<img src='https://dl.dropbox.com/s/tupetot53ck72aw/logo_xTU.png' alt='xTU' width='60px'>" ?></div></a>
             <ul>
                 <li><a style="opacity: 0; background-color: white;" href="#">.........</a></li>
                 <li class="dropdown">
@@ -35,8 +35,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <a href="#">Others</a>
                         </div>
                 </li>
-                <li style="float: right;"><a href="#search"><i class="fas fa-search"></i></a></li>
-                <li style="float: right;"><a href="#login">Login</a></li>
+                <li style="float: right;"><a href="<?php echo base_url(); ?>search"><i class="fas fa-search"></i></a></li>
+                <li style="float: right;"><a href="<?php echo base_url(); ?>login">Login</a></li>
                 <li style="float: right;"><a href="#login">ThammaTrans</a></li>
             </ul>
         </div>

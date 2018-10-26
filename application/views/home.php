@@ -106,39 +106,39 @@
         </div> <!-- long-box end -->
 
          <div class="long-box">
-            <div class="head-sub">Cafe</div>
+            <div class="head-sub">Café</div>
 
             <div class="place-card-align">
             
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="http://static-12.sinclairstoryline.com/resources/media/2b8a785a-6dfd-4040-8e55-e2513828bd25-large16x9_RedsTavernDoubleBurger.jpg?1527629035706" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic"><img src="https://img.wongnai.com/p/1968x0/2017/09/21/aba84f125e8a4cc9827c4f7f556f3472.jpg" alt="frenchfries" style="max-width: 100%;"></div>
                 <div class="place-card-description">
-                    <div class="head-sub">Burger Shop</div>
-                    This isn't just a normal burger shop
+                    <div class="head-sub">Wakatei Sweet Cafe</div>
+                    Japanese style desert cafe
+                    Serving to you now
+                </div></a>
+            </div>
+            <div class="place-card"><a href="#">
+                <div class="place-card-pic"><img src="https://www.hunsa.com/attachments/unnamed-6-jpg.28969/" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-description">
+                    <div class="head-sub">Starbucks Coffee - Puey</div>
+                    Typical american coffee house chain
+                    Founded in Seattle
+                </div></a>
+            </div>
+            <div class="place-card"><a href="#">
+                <div class="place-card-pic"><img src="https://img.wongnai.com/p/1968x0/2015/02/12/2559f001512c4d748fd124c1b57dc4ce.jpg" alt="friedchick" style="max-width: 100%;"></div>
+                <div class="place-card-description">
+                    <div class="head-sub">Nomwhan Desert Cafe</div>
+                    From toasted bread to bingsu
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic"><img src="https://c.min.ms/t/d/member/c/34/34547/pagegallery/1526840022/2300eb79.jpg" alt="crab" style="max-width: 100%;"></div>
                 <div class="place-card-description">
-                    <div class="head-sub">Fresh French Fries</div>
-                    This isn't just a normal burger shop
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div></a>
-            </div>
-            <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://d3awvtnmmsvyot.cloudfront.net/api/file/17jTkohRgmDuhp6XGQQI" alt="friedchick" style="max-width: 100%;"></div>
-                <div class="place-card-description">
-                    <div class="head-sub">Fried Chicken</div>
-                    This isn't just a normal burger shop
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div></a>
-            </div>
-            <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_602,c_fill,g_auto,h_339,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170302153529-garlic-crab.jpg" alt="crab" style="max-width: 100%;"></div>
-                <div class="place-card-description">
-                    <div class="head-sub">Oh! Crab</div>
-                    This isn't just a normal burger shop
+                    <div class="head-sub">Urbie</div>
+                    This isn't just a normal coffee shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div></a>
             </div>

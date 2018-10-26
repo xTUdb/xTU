@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" />
 <div style="background-color:#DBF0FD">
 <div class="container" style="padding-top: 100px;">
 <span class="title is-2" style="padding-right:10px; padding-top:200px;">Add a place</span>
