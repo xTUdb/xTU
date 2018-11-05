@@ -1,0 +1,51 @@
+.move-down {
+    margin-top: 100px;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 450px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#query {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#query:hover {
+    background-color: cornflowerblue;
+}
+
+#alert {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+#alert:hover {
+    background-color: crimson;
+}
+
+.query-head {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555555;
+}

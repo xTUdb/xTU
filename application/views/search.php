@@ -1,11 +1,12 @@
-<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bulma.css" />
-<div class="container" style="margin-top:100px; display: flex; justify-content: center">
-<div class="field" style="">
-    <div class="control">
-        <input class="input is-rounded" type="text" placeholder="Search" autofocus="" style="width:400px;">
-    </div>
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/search.css" />
+<div class="container move-down">
+    <form action="search.php" method="get">
+        <input type="text" id="search" name="search" placeholder="Search a store, a category...">
+        <button id="query"><i class="fas fa-search"></i> Search</button>
+        <button id="alert"><i class="fas fa-times"></i></button>
+    </form>
 </div>
-<a class="button is-info is-rounded" style="height: 36px; width: 36px; border-radius: 50px; margin-left:10px"><i class="fa fa-search"></i></a>
-<a class="button is-danger is-rounded" style="height: 36px; width: 36px; border-radius: 50px; margin-left:10px" href="<?php echo base_url(); ?>"><i class="fa fa-times"></i></a>
-</div>
+<div class="container">
+    <div class="query-head">Recent Search</div>
+    <div class="query-head">Most View</div>
 </div>
