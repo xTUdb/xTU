@@ -9,15 +9,40 @@
 <div class="container">
     <div class="query-head">Recent Search</div>
 
-    <!-- item -->
+    <!-- ITEM -->
     <div class="query-card">
-        <div class="query-img"><img src="https://via.placeholder.com/300x175" alt=""></div>
+        <!-- item image -->
+        <a href="#"><div class="query-img-box"><img class="query-img" src="https://via.placeholder.com/300x175" alt=""></div></a>
+        <!-- item category -->
         <div class="query-category">
             <img class="query-category-img" src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png" alt="food">Food
         </div>
+        <!-- item description -->
+        <span class="operate-box">OPEN</span>
+        <a href="#"><span class="query-name-place">Secret Hideout</span></a>
+        <p>Description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, quo. Rem quo maxime hic sint, aliquid, eaque sed assumenda, beatae officia mollitia laboriosam corrupti porro recusandae sequi quibusdam soluta nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae accusamus numquam recusandae velit mollitia cumque repudiandae et, veritatis temporibus alias reiciendis saepe incidunt sed aliquid quos nulla ducimus commodi quibusdam<a href="#"> ...</a></p>
+        <!-- item special -->
+        <span class="rating-star"><i class="fas fa-star"></i> 4.5</span>
+        <span class="promotion"><i class="fas fa-bullhorn"></i>  Promotion</span>
+    </div><!-- End-ITEM -->
+
+    <!-- ITEM -->
+    <div class="query-card">
+        <!-- item image -->
+        <div class="query-img-box"><img class="query-img" src="https://via.placeholder.com/300x175" alt=""></div>
+        <!-- item category -->
+        <div class="query-category">
+            <img class="query-category-img" src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png" alt="food">Food
+        </div>
+        <!-- item description -->
+        <span class="operate-box">OPEN</span>
         <span class="query-name-place">Secret Hideout</span>
         <p>Description Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, quo. Rem quo maxime hic sint, aliquid, eaque sed assumenda, beatae officia mollitia laboriosam corrupti porro recusandae sequi quibusdam soluta nesciunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae accusamus numquam recusandae velit mollitia cumque repudiandae et, veritatis temporibus alias reiciendis saepe incidunt sed aliquid quos nulla ducimus commodi quibusdam.</p>
-    </div><!-- End-item -->
+        <!-- item special -->
+        <span class="rating-star"><i class="fas fa-star"></i> 4.5</span>
+        <span class="promotion"><i class="fas fa-bullhorn"></i>  Promotion</span>
+    </div><!-- End-ITEM -->
+
     <div class="query-head">Most View</div>
 </div>​
 </div>
