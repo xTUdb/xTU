@@ -61,6 +61,13 @@
 
     <div class="container">
 
+        <!-- Alert Promotion -->
+        <div class="alert">
+            <span class="alert-closebtn" onclick="this.parentElement.style.display='none';"><i class="fas fa-times"></i></span> 
+            <strong>ย่างเนย</strong> มา 4 จ่าย 3 เฉพาะวันนี้เท่านั้น!&nbsp;&nbsp;<a href="#" class="more">more...</a>
+        </div><!-- End Alert Promotion -->
+
+        <!-- Nearby You -->
         <div class="head-part">NEARBY YOU</div>
 
         <div class="long-box">
