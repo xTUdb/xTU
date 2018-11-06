@@ -330,6 +330,7 @@ a.more:hover {
 /* ---------- ADD BUTTON ---------- */
 
 .xadd-button{
+    z-index: 1;
     width: 75px;
     height: 75px;
     border-radius: 50%;
