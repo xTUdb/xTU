@@ -183,6 +183,7 @@ li.dropdown {
     background-color: tomato;
     color: white;
     font-size: 18px;
+    margin: 12px 0;
 }
 
 .alert-closebtn {
@@ -288,6 +289,10 @@ a.more {
     text-decoration: underline;
 }
 
+a.more:hover {
+    background-color: white;
+}
+
 .item-special-box {
     left: 332px;
     bottom: 18px;
@@ -324,44 +329,30 @@ a.more {
 
 /* ---------- ADD BUTTON ---------- */
 
-.xbutton {
-    background-color: white;
-    border-color: #dbdbdb;
-    border-width: 1px;
-    color: #363636;
-    cursor: pointer;
-    justify-content: center;
-    padding: 0.75rem;
-    text-align: center;
-    white-space: nowrap;
-  }
 .xadd-button{
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     position: fixed;
     right: 70px;
     bottom: 70px;
-    background-color: #259140;
-    border-color: transparent;
-    color: #fff;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .25s;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
 }
 
-.xadd-button:hover, .xadd-button.is-hover {
-    background-color: #1496ed;
-    border-color: transparent;
-    color: rgb(250, 227, 227);
+.xadd-button:hover {
+    font-size: 150%;
+    width: 100px;
+    height: 100px;
+    right: 55px;
+    bottom: 55px;
+    border: 2px solid white;
 }
-
-.xbutton.is-rounded {
-    border-radius: 290486px;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-
-
-
 
 /* ---------------- FOOTER ---------------- */
 

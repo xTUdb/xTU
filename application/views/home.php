@@ -195,9 +195,9 @@
     </div>
 
     <!-- ADD BUTTON -->
-    <a class="xbutton xadd-button" href="<?php echo base_url(); ?>additem">
-      <i class="fa fa-plus fa-3x"></i>
-    </a>
+    
+    <a href="<?php echo base_url(); ?>additem"><span class="xadd-button"><i class="fa fa-plus fa-3x"></i>
+    </span></a>
 
       
     <script>
