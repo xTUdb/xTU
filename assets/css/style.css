@@ -63,6 +63,7 @@ a:hover, a:active {
     left: 0;
     background-color: white;
     z-index: 10;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2)
 }
 
 ul {
