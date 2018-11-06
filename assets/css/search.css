@@ -1,3 +1,5 @@
+/* ---------- SEARCH BOX ---------- */
+
 .move-down {
     margin-top: 100px;
     text-align: center;
@@ -43,9 +45,40 @@ input[type=text], select {
     background-color: crimson;
 }
 
+/* ---------- RESULTS ---------- */
+
+.query-card {
+    height: 200px;
+    border-bottom: 2px solid #eeeeee;
+}
+
 .query-head {
     margin-top: 30px;
+    margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
     color: #555555;
+}
+
+.query-img {
+    margin-right: 15px;
+    float: left;
+}
+
+.query-name-place {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.query-category {
+    text-align: center;
+    width: 110px;
+    float: right;
+    margin-top: 20px;
+}
+
+.query-category-img {
+    width: 100px;
+    margin: 10px;
 }
