@@ -11,9 +11,8 @@
 
     <!-- item -->
     <div class="query-card">
-        <div class="query-img">
-        <img src="https://via.placeholder.com/300x175" alt="">
-        <div class="query-category"></div>
+        <div class="query-img"><img src="https://via.placeholder.com/300x175" alt=""></div>
+        <div class="query-category">
             <img class="query-category-img" src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Food-Dome-512.png" alt="food">Food
         </div>
         <span class="query-name-place">Secret Hideout</span>
