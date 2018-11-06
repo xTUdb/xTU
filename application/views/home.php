@@ -59,8 +59,6 @@
     <!-- Shortcuts End -->
 
 
-
-
     <div class="container">
 
         <div class="head-part">NEARBY YOU</div>
@@ -71,15 +69,15 @@
             <div class="place-card-align">
             
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="http://static-12.sinclairstoryline.com/resources/media/2b8a785a-6dfd-4040-8e55-e2513828bd25-large16x9_RedsTavernDoubleBurger.jpg?1527629035706" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><span class="rating-star rating-on-pic"><i class="fas fa-star"></i> 4.5</span><img class="place-card-pic"  src="http://static-12.sinclairstoryline.com/resources/media/2b8a785a-6dfd-4040-8e55-e2513828bd25-large16x9_RedsTavernDoubleBurger.jpg?1527629035706" alt="frenchfries"></div>
                 <div class="place-card-description">
-                    <div class="head-sub">Burger Shop</div>
+                    <div class="head-sub">Burger Shop <span class="operate-box">OPEN</span> </div>
                     This isn't just a normal burger shop
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://www.rd.com/wp-content/uploads/2018/04/9-Foods-You-Should-Never-Eat-Before-Bed-760x506.jpg" alt="frenchfries" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Fresh French Fries</div>
                     This isn't just a normal burger shop
@@ -87,7 +85,7 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://d3awvtnmmsvyot.cloudfront.net/api/file/17jTkohRgmDuhp6XGQQI" alt="friedchick" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://d3awvtnmmsvyot.cloudfront.net/api/file/17jTkohRgmDuhp6XGQQI" alt="friedchick" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Fried Chicken</div>
                     This isn't just a normal burger shop
@@ -95,7 +93,7 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_602,c_fill,g_auto,h_339,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170302153529-garlic-crab.jpg" alt="crab" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_602,c_fill,g_auto,h_339,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F170302153529-garlic-crab.jpg" alt="crab" style="max-width: 100%;"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Oh! Crab</div>
                     This isn't just a normal burger shop
@@ -111,7 +109,7 @@
             <div class="place-card-align">
             
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://img.wongnai.com/p/1968x0/2017/09/21/aba84f125e8a4cc9827c4f7f556f3472.jpg" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Wakatei Sweet Cafe</div>
                     Japanese style desert cafe
@@ -119,7 +117,7 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://www.hunsa.com/attachments/unnamed-6-jpg.28969/" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Starbucks Coffee - Puey</div>
                     Typical american coffee house chain
@@ -127,7 +125,7 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://img.wongnai.com/p/1968x0/2015/02/12/2559f001512c4d748fd124c1b57dc4ce.jpg" alt="friedchick" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Nomwhan Desert Cafe</div>
                     From toasted bread to bingsu
@@ -135,7 +133,7 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://c.min.ms/t/d/member/c/34/34547/pagegallery/1526840022/2300eb79.jpg" alt="crab" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Urbie</div>
                     This isn't just a normal coffee shop
@@ -151,7 +149,7 @@
             <div class="place-card-align">
             
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://istudiobyspvi.com/wp-content/uploads/2018/07/TUR.png" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">U-Store TU</div>
                     Apple Educational Store 
@@ -159,21 +157,21 @@
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://www.worldofbuzz.com/wp-content/uploads/2017/07/familymart-opens-directly-opposite-sunway-university-offers-free-ice-cream-world-of-buzz-3.jpg" alt="frenchfries" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Family Mart - Interpark</div>
                     This isn't just a convenience store
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2017/07/06235029/060717_krstationers-hauzkhas-1.jpg" alt="friedchick" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Some Stationery</div>
                     Selling A to Zs !
                 </div></a>
             </div>
             <div class="place-card"><a href="#">
-                <div class="place-card-pic"><img src="https://images.ctfassets.net/g8qtv9gzg47d/6z4RguUxmEQeCws6C4emi4/2dc9eb87c15f4d6a4c972b57bcd3dd95/usa-drugstore-best-finds-1.JPG?fl=progressive&fm=jpg&q=80" alt="crab" style="max-width: 100%;"></div>
+                <div class="place-card-pic-box"><img class="place-card-pic" src="https://via.placeholder.com/200x200?text=Shop+Preview" alt="preview"></div>
                 <div class="place-card-description">
                     <div class="head-sub">Rx-7</div>
                     FD
@@ -189,9 +187,10 @@
 
     </div>
 
+    <!-- ADD BUTTON -->
     <a class="xbutton xadd-button" href="<?php echo base_url(); ?>additem">
       <i class="fa fa-plus fa-3x"></i>
-      </a>
+    </a>
 
       
     <script>

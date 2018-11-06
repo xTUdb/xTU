@@ -14,6 +14,7 @@ body {
 .head-sub {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 3px;
 }
 
 h4 {
@@ -214,13 +215,18 @@ li.dropdown {
 .place-card {
     margin-top: 10px;
     width: 24%;
-    height: 150;
 }
 
-.place-card-pic {
+.place-card-pic-box {
     position: relative;
     height: 145px;
     overflow: hidden;
+}
+
+.place-card-pic {
+    width: 278.04px;
+    height: 145px;
+    object-fit: cover;
 }
 
 .place-card-align {
@@ -233,7 +239,56 @@ li.dropdown {
     margin-top: 5px;
 }
 
-/* BUTTON */
+/* ---------- OPERATION ---------- */
+.operate-box {
+    color: white;
+    background-color: limegreen;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+a.more {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.item-special-box {
+    left: 332px;
+    bottom: 18px;
+    width: 100%;
+    position: absolute;
+}
+
+.rating-star {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    bottom: 16px;
+}
+
+.rating-on-pic {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.promotion {
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    bottom: 16px;
+    left: 2px;
+}
+
+/* ---------- ADD BUTTON ---------- */
 
 .xbutton {
     background-color: white;

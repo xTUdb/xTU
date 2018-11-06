@@ -10,7 +10,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #bbb;
+    border: 1.5px solid #bbb;
     border-radius: 40px;
     box-sizing: border-box;
     font-size: 16px;
@@ -53,6 +53,7 @@ input[type=text], select {
     box-shadow: 0 2px 16px 0px rgba(0,0,0,0.2);
     transition: 0.3s;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .query-card:hover {
@@ -95,34 +96,4 @@ input[type=text], select {
 .query-category-img {
     width: 100px;
     margin-bottom: 10px;
-}
-
-/* ---------- OPERATION ---------- */
-.operate-box {
-    color: white;
-    background-color: limegreen;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 4px 6px;
-    border-radius: 5px;
-}
-
-.rating-star {
-    color: white;
-    background-color: orange;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 4px 10px;
-    border-radius: 5px;
-    bottom: 0;
-}
-
-.promotion {
-    color: white;
-    background-color: tomato;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 4px 10px;
-    border-radius: 5px;
-    bottom: 0;
 }
