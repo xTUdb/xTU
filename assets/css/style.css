@@ -45,12 +45,12 @@ a:hover, a:active {
 
 .container {
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     /* z-index: -1; */
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1250px) {
     .container {
         max-width: 1200px;
         width: 1200px;
@@ -75,7 +75,7 @@ a:hover, a:active {
     left: 0;
     background-color: white;
     z-index: 10;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2)
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
 }
 
 ul {
