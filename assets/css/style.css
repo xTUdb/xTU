@@ -422,29 +422,55 @@ a.more:hover {
     border: 2px solid white;
 }
 
-/* ---------------- FOOTER ---------------- */
-
-footer{
-    font-family: Arial;
-    left:0;
-    bottom:0;
-    width:100%;
-    background-color: #f0f0f0;
-    padding:20px;
+/* --------------- FOOTER --------------- */
+footer {
     margin-top: 40px;
-    display: flex;
+    font-size: 15px;
+    background-color: #f3f3f3;
 }
 
-.column1{
-    float: left;
-    width: 33.33%;
+.f-container {
+    margin: 0 auto;
+    width: 1100px;
 }
-.column2{
-    float: center;
-    width: 33.33%;
+
+@media screen and (max-width:1200px) {
+    .f-container {
+        width: 100%;
+    }
 }
-.column3{
-    float: right;
-    text-align: right;
-    width: 33.33%;
+
+.col-a-foot {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column-footer a {
+    color: gray;
+    padding: 4px 0;
+    text-decoration: none;
+}
+
+.column-footer a:hover {
+    color: #1972c9;
+}
+
+.logo-footer {
+    padding-bottom: 10px;
+    height: 40px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.footer-bottom {
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
 }
