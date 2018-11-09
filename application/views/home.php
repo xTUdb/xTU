@@ -71,7 +71,7 @@
         <div class="head-part">NEARBY YOU</div>
 
         <div class="long-box">
-            <div class="head-sub">Food</div>
+            <div class="head-sub"><i class="fas fa-utensils"></i> Food</div>
 
             <div class="place-card-align">
             
@@ -111,7 +111,7 @@
         </div> <!-- long-box end -->
 
          <div class="long-box">
-            <div class="head-sub">Café</div>
+            <div class="head-sub"><i class="fas fa-coffee"></i> Café</div>
 
             <div class="place-card-align">
             
@@ -151,7 +151,7 @@
         </div> <!-- long-box end -->
 
         <div class="long-box">
-            <div class="head-sub">Store</div>
+            <div class="head-sub"><i class="fas fa-store"></i> Store</div>
 
             <div class="place-card-align">
             
@@ -197,7 +197,7 @@
     <!-- ADD BUTTON -->
     
     <a href="<?php echo base_url(); ?>additem"><span class="xadd-button"><i class="fa fa-plus fa-3x"></i>
-    </span></a>
+    <span class="tooltiptext">Add a store</span></span></a>
 
       
     <script>

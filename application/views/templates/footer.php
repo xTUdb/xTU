@@ -2,11 +2,12 @@
         <div class="f-container col-a-foot">
             <div class="column-footer">
                 <img class="logo-footer" src="https://i.imgur.com/mZfzt9s.png" alt="1024x545">
-                xTU Database System Project<br><br>
+                <strong>xTU Database System</strong>
+                Thammasat Rangsit Store Directory<br><br>
                 <strong><i class="fas fa-map-marker-alt"></i> Thammasat University</strong>
-                99 Moo 18, Phahon Yothin Rd. <br>
+                <div class="col-grey">99 Moo 18, Phahon Yothin Rd. <br>
                 Khlongluang, Pathum Thani <br>
-                12121 Thailand
+                12121 Thailand</div>
             </div>
             <div class="column-footer">
                     <strong>Quick links</strong><br>
@@ -19,7 +20,7 @@
                 <strong>Support</strong><br>
                 <a href="">Report abuse/bugs</a>
                 <a href="">Be a store owner</a>
-                <a href="">Donation</a>
+                <a href="">Support us</a>
             </div>
             <div class="column-footer">
                 <strong>Contact</strong><br>

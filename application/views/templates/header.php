@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="navbar-box">
         <div class="container">
             <div class="nav-left">
-                <img id="title-logo" src="https://i.imgur.com/mZfzt9s.png" alt="1024x545">
+                <a href="<?php echo base_url(); ?>"><img id="title-logo" src="https://i.imgur.com/mZfzt9s.png" alt="1024x545"></a>
                 <div class="nav-list dd-h">Categories <i class="fas fa-angle-down"></i>
             
             <!-- Dropdown container -->
@@ -59,12 +59,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="nav-right">
                 <span class="nav-list">ThammaTrans</span>
-                <span class="nav-item nav-user"><i class="fas fa-user-circle nav-icon"></i>
+                <a href="<?php echo base_url(); ?>login"><span class="nav-item nav-user"><i class="fas fa-user-circle nav-icon"></i>
                     <span class="nav-hide-text">&nbsp; Login / Sign up</span>
-                </span>
-                <span class="nav-item"><i class="fas fa-search fa-lg"></i>
+                </span></a>
+                <a href="<?php echo base_url(); ?>search"><span class="nav-item nav-search"><i class="fas fa-search fa-lg"></i>
                     <span class="nav-hide-text">&nbsp; Search</span>
-                </span>
+                </span></a>
             </div><!-- END Nav-right -->
         </div><!-- END container -->
     </div>
