@@ -7,7 +7,8 @@
     </form>
 </div>
 <div class="container">
-    <div class="query-head">Recent Search</div>
+    <div class="query-head">Search recently</div>
+    <div class="query-head">Most view</div>
 
     <!-- ITEM -->
     <div class="query-card">
@@ -43,7 +44,5 @@
         <div class="item-special-box">
         <span class="rating-star"><i class="fas fa-star"></i> 4.5</span></div>
     </div><!-- End-ITEM -->
-
-    <div class="query-head">Most View</div>
 </div>​
 </div>
