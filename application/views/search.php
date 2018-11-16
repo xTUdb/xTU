@@ -8,6 +8,36 @@
 </div>
 <div class="container">
     <div class="query-head">Search recently</div>
+    <div class="recent-card-container">
+        <a href=""><div class="recent-card">
+        <div class="recent-card-text">
+            <div class="recent-card-title">Recent Shop Name</div>
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <img src="https://via.placeholder.com/270x160"/>
+        </div></a><!-- End recent-card -->
+        <a href=""><div class="recent-card">
+        <div class="recent-card-text">
+            <div class="recent-card-title">Recent Shop Name</div>
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <img src="https://via.placeholder.com/300x175"/>
+        </div></a><!-- End recent-card -->
+        <a href=""><div class="recent-card">
+        <div class="recent-card-text">
+            <div class="recent-card-title">Recent Shop Name</div>
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <img src="https://via.placeholder.com/300x175"/>
+        </div></a><!-- End recent-card -->
+        <a href=""><div class="recent-card">
+            <div class="recent-card-text">
+            <div class="recent-card-title">Recent Shop Name</div>
+            Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <img src="https://via.placeholder.com/300x175"/>
+        </div></a><!-- End recent-card -->
+    </div><!-- End recent-card-container -->
     <div class="query-head">Most view</div>
 
     <!-- ITEM -->

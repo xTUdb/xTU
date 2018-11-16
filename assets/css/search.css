@@ -97,3 +97,63 @@ input[type=text], select {
     width: 100px;
     margin-bottom: 10px;
 }
+
+/* ---------- RECENTLY SEARCH ---------- */
+.recent-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recent-card img {
+    width: 270px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.recent-card {
+    position: relative;
+    width: 270px;
+    box-shadow: 0 2px 16px 0px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.recent-card:hover {
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.4);
+}
+
+.recent-card:hover::after {
+    background-color: rgba(0,0,0,0.8);
+    background-image: none;
+}
+
+.recent-card::after {
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, #000 100%);
+    margin-top: -164px; /* move up */
+    /* the same dimension of img */
+    height: 162px;
+    width: 270px;
+    content: '';
+    transition: .5s;
+}
+
+.recent-card-text {
+    color: white;
+    /* text-align: right; */
+    display: block;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    z-index: 1;
+    transition: .3s;
+}
+
+.recent-card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.recent-card:hover .recent-card-text {
+    top: 16px;
+}

@@ -366,7 +366,7 @@ a.more:hover {
 .item-special-box {
     left: 332px;
     bottom: 18px;
-    width: 100%;
+    /* width: 100%; */
     position: absolute;
 }
 
