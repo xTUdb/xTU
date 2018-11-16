@@ -5,15 +5,27 @@ body {
 
 .head-part {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     font-size: 28px;
     font-weight: bold;
     margin-top: 20px;
 }
 
+.head-part:before, .head-part:after {
+    top: 50%;
+    overflow: hidden;
+    width: 40%;
+    height: 2.5px;
+    content: '';
+    background-color: red;
+}
+
 .head-sub {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 3px;
 }
 
 h4 {
@@ -33,91 +45,162 @@ a:hover, a:active {
 
 .container {
     margin: 0 auto;
-    position: relative;
+    /* position: relative; */
     /* z-index: -1; */
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1250px) {
     .container {
         max-width: 1200px;
         width: 1200px;
     }
 }
 
-/* ---------------- LOGO ---------------- */
-
-#logo {
-    z-index: 1;
-    position: absolute;
-    padding: 12px 5px;
-}
-
 /* ---------------- NAVBAR ---------------- */
 
-#header {
+.navbar-box {
     position: fixed;
-    /* display: inline; */
+    z-index: 1000;
     width: 100%;
+    height: 58px;
     top: 0;
-    left: 0;
-    background-color: white;
-    z-index: 10;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
     padding: 0;
-    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
 }
 
-li {
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
     float: left;
 }
 
-li a, .dropbtn {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #bebebe;
+img#title-logo {
+    padding: 9px 12px;
+    height: 40px;
+    width: 75px;
+    object-fit: cover;
+    transition: .25s;
 }
 
-.logo:hover {
-    background-color: white;
+img#title-logo:hover {
+    background-color: dodgerblue;
 }
 
-li.dropdown {
-    display: inline-block;
+.nav-list {
+    display: inline;
+    padding: 20px;
+    margin: 0;
+    top: 0;
+    transition: .25s;
 }
 
-.dropdown-content{
-    display: none; 
+.nav-list:hover, .nav-item:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.nav-item {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    transition: .25s;
+}
+
+.nav-user {
+    border-left: 1.5px solid #e7e7e7;
+    border-right: 1.5px solid #e7e7e7;
+    /* background-color: #d8d8d8; */
+}
+
+.nav-icon {
+    font-size: 2.25rem;
+}
+
+.nav-hide-text {
+    display: none;
+}
+
+.nav-item:hover > .nav-hide-text {
+    display: inline;
+}
+
+a span.nav-user {
+    padding: 11px 20px;
+}
+
+a span.nav-search {
+    padding: 20.5px 20px;
+}
+
+/* ----- DROPDOWN ----- */
+
+.dropdown-box {
+    margin-top: 20px;
+    margin-left: -20px;
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    overflow: auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,0.3);
+    display: none;
 }
 
-.dropdown-content a {
+.dd-h:hover .dropdown-box, .dropdown-box:hover {
+    display: block;
+}
+
+.dropdown-box a:hover .dd-h {
+    background-color: dodgerblue;
+}
+
+.dropdown-box a:hover {
+    background-color: dodgerblue;
+}
+
+.dropdown-subcat-head {
     color: black;
-    padding: 10px 16px;
-    text-decoration: none;
-    display: block;
+    font-size: 18px;
+    font-weight: bold;
     text-align: left;
+    padding: 12px 20px;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1}
+.dropdown-item {
+    background-color: #fcfcfc;
+    height: 120px;
+    display: flex;
+}
 
-.dropdown:hover .dropdown-content {
-    display: block;
+.dropdown-subcat a {
+    text-align: center;
+    padding: 16px 20px;
+    width: 110px;
+    color: black;
+    text-decoration: none;
+}
+
+.dropdown-subcat a:hover {
+    color: white;
+}
+
+.dropdown-subcat:hover .dropdown-subcat-head {
+    color: #1972c9;
+}
+
+.dropdown-item img {
+    height: 60px;
+    object-fit: contain;
+}
+
+.dd-t {
+    text-align: center;
 }
 
 /* ---------------- CAROUSEL ---------------- */
@@ -161,6 +244,30 @@ li.dropdown {
     text-align: right;
     color: white;
     background-color: rgba(0,0,0,0.75);
+}
+
+/* ---------- ALERT ---------- */
+
+.alert {
+    padding: 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.alert-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.alert-closebtn:hover {
+    color: black;
 }
 
 /* ---------------- CARD ---------------- */
@@ -213,13 +320,18 @@ li.dropdown {
 .place-card {
     margin-top: 10px;
     width: 24%;
-    height: 150;
 }
 
-.place-card-pic {
+.place-card-pic-box {
     position: relative;
     height: 145px;
     overflow: hidden;
+}
+
+.place-card-pic {
+    width: 278.04px;
+    height: 145px;
+    object-fit: cover;
 }
 
 .place-card-align {
@@ -232,70 +344,169 @@ li.dropdown {
     margin-top: 5px;
 }
 
-/* BUTTON */
+/* ---------- OPERATION ---------- */
+.operate-box {
+    color: white;
+    background-color: limegreen;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
 
-.xbutton {
+a.more {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+a.more:hover {
     background-color: white;
-    border-color: #dbdbdb;
-    border-width: 1px;
-    color: #363636;
-    cursor: pointer;
-    justify-content: center;
-    padding: 0.75rem;
-    text-align: center;
-    white-space: nowrap;
-  }
+}
+
+.item-special-box {
+    left: 332px;
+    bottom: 18px;
+    /* width: 100%; */
+    position: absolute;
+}
+
+.rating-star {
+    color: white;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    bottom: 16px;
+}
+
+.rating-on-pic {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+.promotion {
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    bottom: 16px;
+    left: 2px;
+}
+
+/* ---------- ADD BUTTON ---------- */
+
 .xadd-button{
-    width: 50px;
-    height: 50px;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     position: fixed;
     right: 70px;
     bottom: 70px;
-    background-color: #259140;
-    border-color: transparent;
-    color: #fff;
-}
-
-.xadd-button:hover, .xadd-button.is-hover {
-    background-color: #1496ed;
-    border-color: transparent;
-    color: rgb(250, 227, 227);
-}
-
-.xbutton.is-rounded {
-    border-radius: 290486px;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-
-
-
-
-/* ---------------- FOOTER ---------------- */
-
-footer{
-    font-family: Arial;
-    left:0;
-    bottom:0;
-    width:100%;
-    background-color: #f0f0f0;
-    padding:20px;
-    margin-top: 40px;
+    background-color: dodgerblue;
+    color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .25s;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
 }
 
-.column1{
-    float: left;
-    width: 33.33%;
+.xadd-button:hover {
+    font-size: 150%;
+    width: 100px;
+    height: 100px;
+    right: 55px;
+    bottom: 55px;
+    border: 2px solid white;
 }
-.column2{
-    float: center;
-    width: 33.33%;
+
+.xadd-button .tooltiptext {
+    visibility: hidden;
+    font-size: 16px;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    right: 120%;
 }
-.column3{
-    float: right;
-    text-align: right;
-    width: 33.33%;
+
+.xadd-button .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+.xadd-button:hover .tooltiptext {
+    visibility: visible;
+}
+
+/* --------------- FOOTER --------------- */
+footer {
+    margin-top: 40px;
+    font-size: 15px;
+    background-color: #f3f3f3;
+}
+
+.f-container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+@media screen and (max-width:1200px) {
+    .f-container {
+        width: 100%;
+    }
+}
+
+.col-a-foot {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.column-footer a {
+    color: gray;
+    padding: 4px 0;
+    text-decoration: none;
+}
+
+.column-footer a:hover {
+    color: #c91919;
+}
+
+.logo-footer {
+    padding-bottom: 10px;
+    height: 40px;
+    width: 75px;
+    object-fit: cover;
+}
+
+.footer-bottom {
+    padding: 16px 0;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.col-grey {
+    color: grey;
 }

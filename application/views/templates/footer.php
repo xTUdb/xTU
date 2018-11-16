@@ -1,27 +1,40 @@
-    <!-- Footer -->
-    <footer style="backgroud-color: #f0f0f0">
-    <div class="container">
-        <div class="column1">
-            <p><img src="https://dl.dropbox.com/s/tupetot53ck72aw/logo_xTU.png" alt="xTU" width="60px"> </p>
-            <p><a href="#">About Us</a></p>
-            <p><a href="#">Contact Us</a></p>
+    <footer>
+        <div class="f-container col-a-foot">
+            <div class="column-footer">
+                <img class="logo-footer" src="https://i.imgur.com/mZfzt9s.png" alt="1024x545">
+                <strong>xTU Database System</strong>
+                Thammasat Rangsit Store Directory<br><br>
+                <strong><i class="fas fa-map-marker-alt"></i> Thammasat University</strong>
+                <div class="col-grey">99 Moo 18, Phahon Yothin Rd. <br>
+                Khlongluang, Pathum Thani <br>
+                12121 Thailand</div>
             </div>
-        <div class="column2">
-            <p><a href="#">Report abuse/place</a></p>
+            <div class="column-footer">
+                    <strong>Quick links</strong><br>
+                    <a href="">Search</a>
+                    <a href="">Sign up</a>
+                    <a href="">Add a store</a>
+                    <a href="">ThammaTrans</a>
+                </div>
+            <div class="column-footer">
+                <strong>Support</strong><br>
+                <a href="">Report abuse/bugs</a>
+                <a href="">Be a store owner</a>
+                <a href="">Support us</a>
+            </div>
+            <div class="column-footer">
+                <strong>Contact</strong><br>
+                <a href=""><i class="fab fa-facebook"></i> Facebook Page</a>
+                <a href=""><i class="fab fa-twitter"></i> Twitter</a>
+                <a href=""><i class="fab fa-youtube"></i> YouTube</a>
+                <a href=""><i class="fab fa-line"></i> LINE</a>
+                <a href="">About us</a>
+            </div>
         </div>
-        <div class="column3">
-            <p>Design by ProjectX Group</p>
-        Contact us
-        <!-- FACEBOOK -->
-        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"> </i></a>
-        <!-- LINE -->
-        <a href="#"><i class="fab fa-line fa-2x"> </i></a>
-        <!-- TWITTER -->
-        <a href="https://www.twitter.com/"><i class="fab fa-twitter-square fa-2x"> </i></a>
+        <div class="footer-bottom">
+            <strong>© ProjectX Group 2018</strong>
         </div>
-    </div>
     </footer>
-    <!-- Footer End -->
 
 </body>
 </html>
