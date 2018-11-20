@@ -11,7 +11,7 @@
   </p>
 
   <p>
-    <?php echo lang('login_password_label', 'password');?>
+    <?php echo lang('login_password_label', 'pasword');?>
     <?php echo form_input($password);?>
   </p>
 

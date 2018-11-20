@@ -18,10 +18,25 @@ class Additem extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->library(array('ion_auth', 'form_validation'));
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('/login');
+		}
+	}
+
 	public function index()
 	{
 		$this->load->view('templates/header');
 		$this->load->view('additem');
 		$this->load->view('templates/footer');
+	}
+
+	public function post_item() {
+		$name = $this->input->post('restuarant_name');
 	}
 }

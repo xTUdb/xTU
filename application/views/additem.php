@@ -38,6 +38,8 @@
          </div>
     </div>
 
+    <?php form_open('additem/post_item'); ?>
+
 <a class="button is-primary is-rounded">Add this place</a>
 <a class="button is-danger is-rounded" href="<?php echo base_url(); ?>additem">Reset</a>
 <div style="padding-bottom:200px;"></div> 
