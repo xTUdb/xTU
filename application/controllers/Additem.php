@@ -27,6 +27,12 @@ class Additem extends CI_Controller {
 		{
 			redirect('/login');
 		}
+		else{
+			$this->load->view('templates/header');
+			$this->load->view('additem');
+			$this->load->view('templates/footer');
+			$this->load->model('Additem');
+		}
 	}
 
 	public function index()
