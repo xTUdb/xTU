@@ -76,6 +76,9 @@
     margin-bottom: 16px;
 }
 
+a.store-button {color: white;}
+a.report-button {color: gray;}
+
 .store-button {
     background-color: dodgerblue;
     border: 2px solid dodgerblue;

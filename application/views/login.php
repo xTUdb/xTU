@@ -15,7 +15,7 @@
                         <input type="submit" value="Log in" class="log-button">
                     </form>
                     <br>
-                    <a href="forgot_password.php" target="_blank">Forgot password</a><br><br>
+                    <a href="forgot_password.php" target="_blank">Forgot password?</a><br><br>
                     <div id="signup-switch">Don't have an account? Click here to sign up</div>
                 </div>
                 <div id="signup">

@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/edit_user.css" />
 <div class="user-top-bg"></div>
-<div class="container">
+<div class="container config-con">
     <div class="user-title">Edit your profile</div>
     <img class="user-pic" src="https://www.shareicon.net/download/2015/10/03/650430_users.svg" alt="">
     <form action="change_profile.php" method="post">
