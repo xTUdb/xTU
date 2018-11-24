@@ -14,8 +14,8 @@
 
         <!-- Change to new password -->
         <br>
-        <div class="user-head">New Password</div>
-        Change password: <input type="password" name="new_pass" placeholder="New password" size="35" class="user-txt-input"><br>
+        <div class="user-head">Change new Password</div>
+        New password: <input type="password" name="new_pass" placeholder="New password" size="35" class="user-txt-input"><br>
         Confirm new password: <input type="password" name="check_new_pass" placeholder="Confirm new password" size="35" class="user-txt-input"><br>
 
         <!-- All of your review, to delete -->
@@ -46,4 +46,20 @@
         <input type="submit" value="Change" class="user-button">
         <input type="button" value="Delete Account" class="user-button red-btn">
     </form>
+    <!-- END edit profile -->
 </div>
+
+<div style="margin-bottom:100px;"></div>
+<!-- Admin section -->
+<div class="container config-con" id="adminsection">
+    <div class="user-title">Admin control section</div>
+    <div class="user-head">Links</div>
+    <br><strong>Approval</strong><br>
+    <a href="" target="_blank" class="special-link">Approve stores</a>
+    <a href="" target="_blank" class="special-link">Approve store owners</a>
+    <br><strong>Edit and Delete</strong><br>
+    <a href="" target="_blank" class="special-link">Edit/Delete stores</a>
+    <a href="" target="_blank" class="special-link">Edit/Delete users</a>
+    <a href="" target="_blank" class="special-link">View reports/bugs</a>
+</div>
+<!-- END admin section -->

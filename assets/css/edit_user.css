@@ -135,3 +135,20 @@ a.store {
 a.store:hover {
     background-color: darkblue;
 }
+
+/* ----- Staff/Admin SECTION ----- */
+
+a.special-link {
+    display: inline-block;
+    margin: 6px 6px 6px 0;
+    padding: 12px 20px;
+    border-radius: 300px;
+    background-color: tomato;
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+}
+
+a.special-link:hover {
+    background-color: darkred;
+}
